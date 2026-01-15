@@ -68,27 +68,16 @@ $(function(){
 	      $("#wnext").click(function(){
 	    	
 	       $('.hkfg').fadeOut(1000);
-	       $('.yanhua').fadeIn(3000)
-	       	 
-	       
-	    });
-	    
-	     $("#lpre").click(function(){
-
-	       $('.yanhua').fadeOut(1000);
-	       $('.hkfg').fadeIn(3000);
-	    });
-	      $("#lnext").click(function(){
-	    	
-	       $('.yanhua').fadeOut(1000);
 	       $('.end').fadeIn(3000)
 	       	 
 	       
 	    });
+	    
+
 	     $("#epre").click(function(){
 
 	       $('.end').fadeOut(1000);
-	       $('.yanhua').fadeIn(3000);
+	       $('.hkfg').fadeIn(3000);
 	    });
 	 
 });
